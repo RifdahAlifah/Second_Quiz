@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeLayoutActivity">
+    
+    <TextView
+    android:id="@+id/yellow_one"
+    android:layout_width="@dimen/_150dp"
+    android:layout_height="@dimen/_70dp"
+    android:background="@color/yellow"/>
+
+    <TextView
+        android:id="@+id/yellow_two"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_70dp"
+        android:layout_alignParentEnd="true"
+        android:background="@color/yellow"/>
+
+    <TextView
+        android:id="@+id/green_one"
+        android:layout_width="@dimen/_200dp"
+        android:layout_height="@dimen/_70dp"
+        android:layout_below="@+id/yellow_one"
+        android:background="@color/green"/>
+
+    <TextView
+        android:id="@+id/yellow_three"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_70dp"
+        android:layout_below="@id/green_one"
+        android:layout_toEndOf="@+id/green_one"
+        android:background="@color/yellow" />
+
+    <TextView
+        android:id="@+id/orange_one"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_70dp"
+        android:layout_below="@id/yellow_three"
+        android:background="@color/orange"
+        android:layout_marginTop="@dimen/_20dp"/>
+
+    <TextView
+        android:id="@+id/yellow_four"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_70dp"
+        android:layout_below="@id/yellow_three"
+        android:layout_alignParentEnd="true"
+        android:background="@color/yellow"
+        android:layout_marginTop="@dimen/_20dp"/>
+
+    <TextView
+        android:id="@+id/green_two"
+        android:layout_width="@dimen/_200dp"
+        android:layout_height="@dimen/_70dp"
+        android:layout_below="@+id/yellow_four"
+        android:layout_alignParentEnd="true"
+        android:background="@color/green"/>
+    <TextView
+        android:id="@+id/yellow_five"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_70dp"
+        android:layout_below="@+id/yellow_four"
+        android:background="@color/yellow"
+        android:layout_marginStart="@dimen/_60dp"/>
+
+    <TextView
+        android:id="@+id/yellow_six"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_70dp"
+        android:layout_below="@id/yellow_five"
+        android:background="@color/yellow" />
+
+    <TextView
+        android:id="@+id/blue_one"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_70dp"
+        android:layout_below="@id/yellow_five"
+        android:background="#2F59D8"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:id="@+id/red_one"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_70dp"
+        android:layout_below="@id/yellow_six"
+        android:background="@color/red"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/orange_two"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_70dp"
+        android:layout_below="@id/red_one"
+        android:background="@color/orange"
+        android:layout_marginTop="@dimen/_10dp"/>
+
+    <TextView
+        android:id="@+id/yellow_seven"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_70dp"
+        android:layout_below="@id/red_one"
+        android:background="@color/yellow"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/_10dp"/>
+
+    <TextView
+    android:id="@+id/orange_three"
+    android:layout_width="@dimen/_150dp"
+    android:layout_height="@dimen/_70dp"
+    android:layout_below="@id/orange_two"
+    android:background="@color/orange"
+    android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/orange_four"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_70dp"
+        android:layout_below="@id/orange_three"
+        android:background="@color/orange"
+        />
+
+    <TextView
+        android:id="@+id/orange_five"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_70dp"
+        android:layout_below="@id/orange_three"
+        android:background="@color/orange"
+        android:layout_alignParentEnd="true"/>
+
+
+
+
+
+
+
+
+</RelativeLayout>
